@@ -3,6 +3,8 @@ const loginBtn = document.querySelector(`.login-btn`);
 const closeBtn = document.querySelector(`.close`);
 const liveSports = document.querySelector(`.live-sports`);
 
+// Login-Section
+
 loginBtn.addEventListener(`click`, () => {
   modal.style.display = "block";
 });
@@ -16,6 +18,8 @@ window.addEventListener(`click`, (e) => {
     modal.style.display = "none";
   }
 });
+
+// Livesports-Section
 
 liveSports.addEventListener(`click`, (e) => {
   e.preventDefault();

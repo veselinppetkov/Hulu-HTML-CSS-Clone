@@ -332,7 +332,9 @@ position: relative;
 opacity: 0.5
 }
 
-
+.live-categories > a:hover {
+    opacity: 1
+}
 
 .live-categories > a::after {
     position: absolute;
@@ -341,10 +343,7 @@ opacity: 0.5
     width: 100%;
     transform: translateX(-50%);
     bottom: -20px;
-    left: 50%;
-    }
-
-
+    left: 50%;}
 
 .live-sports-logos {
     width: 300px;
