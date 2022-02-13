@@ -1,0 +1,25 @@
+{
+  "homepage": "http://veselinppetkov.github.io/hulu-html-css-clone",
+  "name": "hulu-html-css-clone",
+  "version": "1.0.0",
+  "description": "This is an HTML &amp; CSS clone of the streaming platform Hulu's homepage. It is created for educational purposes.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/veselinppetkov/hulu-html-css-clone.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/veselinppetkov/hulu-html-css-clone/issues"
+  },
+  "devDependencies": {
+    "gh-pages": "^3.2.3"
+  }
+}
