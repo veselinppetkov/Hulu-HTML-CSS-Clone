@@ -37,12 +37,12 @@ liveSports.addEventListener(`click`, (e) => {
 
       <div class="live-sports-logos">
         <div>
-          <img src="/img/breaking-news-logo-1.png" alt="Logo 1" />
+          <img src="img/breaking-news-logo-1.png" alt="Logo 1" />
         </div>
 
-        <div><img src="/img/breaking-news-logo-2.svg" alt="Logo 2" /></div>
-        <div><img src="/img/breaking-news-logo-3.png" alt="Logo 3" /></div>
-        <div><img src="/img/breaking-news-logo-4.svg" alt="Logo 4" /></div>
+        <div><img src="img/breaking-news-logo-2.svg" alt="Logo 2" /></div>
+        <div><img src="img/breaking-news-logo-3.png" alt="Logo 3" /></div>
+        <div><img src="img/breaking-news-logo-4.svg" alt="Logo 4" /></div>
       </div>
 
       <div class="legal-text">
@@ -51,7 +51,7 @@ liveSports.addEventListener(`click`, (e) => {
       </div>
     </div>`;
 
-      liveSports.style.backgroundImage = "url(/img/breaking-news.jpg)";
+      liveSports.style.backgroundImage = "url(img/breaking-news.jpg)";
     } else if (e.target.textContent == "Biggest Events") {
       liveSports.innerHTML = ` <div class="live-sports-content">
       <div class="live-categories">
@@ -65,12 +65,12 @@ liveSports.addEventListener(`click`, (e) => {
 
       <div class="live-sports-logos">
         <div>
-          <img src="/img/biggest-events-logo-1.png" alt="Logo 1" />
+          <img src="img/biggest-events-logo-1.png" alt="Logo 1" />
         </div>
 
-        <div><img src="/img/biggest-events-logo-2.png" alt="Logo 2" /></div>
-        <div><img src="/img/biggest-events-logo-3.png" alt="Logo 3" /></div>
-        <div><img src="/img/biggest-events-logo-4.png" alt="Logo 4" /></div>
+        <div><img src="img/biggest-events-logo-2.png" alt="Logo 2" /></div>
+        <div><img src="img/biggest-events-logo-3.png" alt="Logo 3" /></div>
+        <div><img src="img/biggest-events-logo-4.png" alt="Logo 4" /></div>
       </div>
 
       <div class="legal-text">
@@ -79,7 +79,7 @@ liveSports.addEventListener(`click`, (e) => {
       </div>
     </div>`;
 
-      liveSports.style.backgroundImage = "url(/img/biggest-events.jpg)";
+      liveSports.style.backgroundImage = "url(img/biggest-events.jpg)";
     } else if (e.target.textContent == "Live Sports") {
       liveSports.innerHTML = ` <div class="live-sports-content">
       <div class="live-categories">
@@ -94,12 +94,12 @@ liveSports.addEventListener(`click`, (e) => {
 
       <div class="live-sports-logos">
         <div>
-          <img src="/img/live-sports-logo-1.png" alt="Logo 1" />
+          <img src="img/live-sports-logo-1.png" alt="Logo 1" />
         </div>
 
-        <div><img src="/img/live-sports-logo-2.png" alt="Logo 2" /></div>
-        <div><img src="/img/live-sports-logo-3.svg" alt="Logo 3" /></div>
-        <div><img src="/img/live-sports-logo-4.png" alt="Logo 4" /></div>
+        <div><img src="img/live-sports-logo-2.png" alt="Logo 2" /></div>
+        <div><img src="img/live-sports-logo-3.svg" alt="Logo 3" /></div>
+        <div><img src="img/live-sports-logo-4.png" alt="Logo 4" /></div>
       </div>
 
       <div class="legal-text">
@@ -108,7 +108,7 @@ liveSports.addEventListener(`click`, (e) => {
       </div>
     </div>`;
 
-      liveSports.style.backgroundImage = "url(/img/live-sports.jpg)";
+      liveSports.style.backgroundImage = "url(img/live-sports.jpg)";
     }
   }
 });
